@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #007bff; /* Background color of the navbar */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around navbar content */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em; /* Font size of the brand name */
+  }
+  
+  .navbar-menu {
+    display: flex;
+    justify-content: flex-end; /* Align menu items to the right */
+  }
+  
+  .navbar-start {
+    display: flex;
+    align-items: center; /* Center menu items vertically */
+  }
+  
+  .navbar-item {
+    color: #fff; /* Text color of menu items */
+    margin-right: 10px; /* Spacing between menu items */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .navbar-item:hover {
+    color: #ccc; /* Text color of menu items on hover */
+  }
+  
